@@ -12,6 +12,23 @@
   --headerTextColor: #ffffff;
 }
 
+.back-button {
+    background-color: white;
+    color: black; /* Assuming you want the arrow and text in black for contrast */
+    border: none; /* To remove default button borders */
+    padding: 5px 5px; /* Add some space around the text and arrow */
+    border-radius: 4px; /* Optional, to round the button corners */
+    cursor: pointer; /* To show it's clickable */
+    font-size: 10px; /* Adjust size as needed */
+    margin: 5px; /* Space it a bit from other elements */
+    transition: background-color 0.3s; /* Optional, for hover effect */
+}
+
+.back-button:hover {
+    background-color: #f7f7f7; /* Slightly different color on hover for effect */
+}
+
+
 .main-container {
     padding-top: 40px; /* height of your header plus a little space */
     padding-bottom: 60px; /* height of your footer plus a little space */
@@ -139,6 +156,7 @@ p {
 /* Additonal Style for Page Titles */
 .title {
   color: var(--fgColor);
+  margin-top:30px;
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
