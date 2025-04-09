@@ -1,71 +1,58 @@
-# Getting Started with Create React App
+# SongTrax - Create, Play, and Share Music Samples
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://reactjs.org/)
 
-## Available Scripts
+**SongTrax** is a dynamic React web application that lets you compose, preview, edit, and share location-based music samples. Powered by React Router for seamless navigation and Tone.js for real-time audio playback, SongTrax brings your musical creativity to life with an intuitive and engaging interface.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Why SongTrax?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Unleash your inner musician! SongTrax offers:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Compose with Ease**: Craft unique note sequences and hear them instantly.
+- **Real-Time Playback**: Preview your samples using Tone.js synthesis.
+- **Seamless Navigation**: Explore the app effortlessly with React Router.
+- **Share Your Creations**: Generate shareable links for your music samples.
+- **Location-Based Inspiration**: Tie your music to the places that inspire you.
 
-### `npm test`
+Ready to make some noise? Let’s get started!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Table of Contents
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. [Features](#features)
+2. [Get Started](#get-started)
+3. [Screens Overview](#screens-overview)
+4. [Tech Stack](#tech-stack)
+5. [License](#license)
+6. [Need Help?](#need-help)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+- **Music Sample Creation**: Build and save note sequences with a simple interface.
+- **Audio Playback**: Use Tone.js to play polyphonic synth sounds in real time.
+- **Dynamic Routing**: Navigate between Home, Create, Edit, and Share screens without reloads.
+- **Sample Management**: Edit or share existing samples with unique IDs.
+- **Responsive Design**: Enjoy a clean, modern UI styled with custom CSS.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Get Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Ready to dive into SongTrax? Follow these steps to set it up locally.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
+- **Node.js**: v14.x or higher ([Download](https://nodejs.org/))
+- **Git**: To clone the repo ([Download](https://git-scm.com/))
+- **IDE**: Visual Studio Code recommended ([Download](https://code.visualstudio.com/))
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Songtrax-Web-App
+### Installation Steps
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/songtrax.git
+   cd songtrax
