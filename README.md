@@ -25,10 +25,7 @@ Ready to make some noise? Let’s get started!
 
 1. [Features](#features)
 2. [Get Started](#get-started)
-3. [Screens Overview](#screens-overview)
-4. [Tech Stack](#tech-stack)
-5. [License](#license)
-6. [Need Help?](#need-help)
+
 
 ---
 
