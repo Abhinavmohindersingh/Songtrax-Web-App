@@ -48,8 +48,3 @@ Ready to dive into SongTrax? Follow these steps to set it up locally.
 - **Git**: To clone the repo ([Download](https://git-scm.com/))
 - **IDE**: Visual Studio Code recommended ([Download](https://code.visualstudio.com/))
 
-### Installation Steps
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/songtrax.git
-   cd songtrax
